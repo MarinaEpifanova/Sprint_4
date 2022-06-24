@@ -9,7 +9,7 @@
              Нужно создать экземпляр класса Account: в качестве аргумента передать тестируемое имя
              и вызвать метод, который проверяет, можно ли использовать фамилию и имя для печати на банковской карте.
          */
-<span class="nc" id="L12">        String[] names = {&quot;Тимоти Шаламе&quot;, &quot;ТимотиШаламе&quot;, &quot;Тимоти  Шаламе&quot;, &quot;Тимоти Шала ме&quot;, &quot; ТимотиШаламе&quot;, &quot;ТимотиШаламе &quot;, &quot;&quot;, &quot;Ти&quot;, &quot;Тим&quot;, &quot;Т Ш&quot;, &quot;Тимоти ШаламеШаламе&quot;, &quot;Тимоти ШаламеШаламем&quot;};</span>
+<span class="nc" id="L12">        String[] names = {&quot;Тимоти Шаламе&quot;, &quot;ТимотиШаламе&quot;, &quot;Тимоти  Шаламе&quot;, &quot;Тимоти Шала ме&quot;, &quot; ТимотиШаламе&quot;, &quot;ТимотиШаламе &quot;, &quot;&quot;, &quot;Ти&quot;, &quot;Тим&quot;, &quot;Т Ш&quot;, &quot;Тимоти ШаламеШаламе&quot;, &quot;Тимоти ШаламеШаламем&quot;, null};</span>
 <span class="nc bnc" id="L13" title="All 2 branches missed.">        for (int i = 0; i &lt; names.length; i = i + 1) {</span>
 <span class="nc" id="L14">            Account account = new Account(names[i]);</span>
 <span class="nc" id="L15">            System.out.println(account.checkNameToEmboss());</span>

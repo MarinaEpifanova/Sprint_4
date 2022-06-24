@@ -36,6 +36,7 @@ public class AccountTest {
                 {"Т Ш", true},
                 {"Тимоти ШаламеШаламе", true},
                 {"Тимоти ШаламеШаламем", false},
+                {null, false},
         };
     }
 
